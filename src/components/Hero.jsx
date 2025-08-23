@@ -33,7 +33,8 @@ const Hero = () => {
 
   return (
     <section id="home" style={{
-      minHeight: '100vh',
+      minHeight: 'calc(100vh - 70px)', /* 👈 Adjusted height to account for navbar */
+      marginTop: '70px', /* 👈 Add margin-top equal to navbar height */
       background: `
         radial-gradient(circle at 20% 50%, rgba(0, 245, 255, 0.1) 0%, transparent 50%),
         radial-gradient(circle at 80% 80%, rgba(255, 0, 128, 0.1) 0%, transparent 50%),
@@ -85,34 +86,29 @@ const Hero = () => {
 
       <div className="container" style={{ position: 'relative', zIndex: 10 }}>
         <div style={{ textAlign: 'center' }}>
-          {/* Avatar */}
-          <div className="animate-scale-in" style={{
-            width: '200px',
-            height: '200px',
-            margin: '0 auto 2rem',
-            background: 'linear-gradient(45deg, #00f5ff, #8b5cf6, #ff0080)',
+          
+         {/* Avatar - Enhanced photo with animated border */}
+        <div className="animate-scale-in" style={{
+        width: '200px',
+        height: '200px',
+        margin: '0 auto 2rem',
+        background: 'linear-gradient(45deg, #00f5ff, #8b5cf6, #ff0080)',
+        borderRadius: '50%',
+        padding: '5px',
+        animation: 'glow 3s ease-in-out infinite',
+        position: 'relative'
+        }}>
+        <img 
+            src="vishal.jpg" 
+            alt="Vishal Sharma" 
+            style={{
+            width: '100%',
+            height: '100%',
             borderRadius: '50%',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            fontSize: '4rem',
-            fontWeight: 'bold',
-            position: 'relative',
-            animation: 'glow 3s ease-in-out infinite'
-          }}>
-            <div style={{
-              background: '#111118',
-              width: '90%',
-              height: '90%',
-              borderRadius: '50%',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              color: '#00f5ff'
-            }}>
-              VS
-            </div>
-          </div>
+            objectFit: 'cover'
+            }}
+        />
+        </div>
 
           {/* Greeting */}
           <div className="animate-slide-up" style={{

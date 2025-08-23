@@ -49,7 +49,7 @@ const Header = () => {
           WebkitTextFillColor: 'transparent',
           cursor: 'pointer'
         }} onClick={() => document.getElementById('home').scrollIntoView({ behavior: 'smooth' })}>
-          &lt;VS/&gt;
+          ♾️
         </div>
 
         {/* Desktop Navigation */}

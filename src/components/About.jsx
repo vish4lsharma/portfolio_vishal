@@ -21,32 +21,29 @@ const About = () => {
               textAlign: 'center',
               background: 'linear-gradient(135deg, rgba(0, 245, 255, 0.1), rgba(139, 92, 246, 0.1))'
             }}>
-              <div style={{
-                width: '300px',
-                height: '300px',
-                margin: '0 auto 2rem',
-                background: 'linear-gradient(45deg, #00f5ff, #8b5cf6)',
-                borderRadius: '50%',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                fontSize: '6rem',
-                fontWeight: 'bold',
-                position: 'relative'
-              }} className="animate-glow">
-                <div style={{
-                  background: '#111118',
-                  width: '90%',
-                  height: '90%',
-                  borderRadius: '50%',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  color: '#00f5ff'
-                }}>
-                  VS
-                </div>
-              </div>
+             {/* Avatar - Replace with your photo */}
+<div style={{
+  width: '300px',
+  height: '300px',
+  margin: '0 auto 2rem',
+  background: 'linear-gradient(45deg, #00f5ff, #8b5cf6)',
+  borderRadius: '50%',
+  padding: '5px',
+  position: 'relative',
+  animation: 'glow 3s ease-in-out infinite'
+}} className="animate-glow">
+  <img 
+    src="vishal1.jpg"
+    alt="Vishal Sharma" 
+    style={{
+      width: '100%',
+      height: '100%',
+      borderRadius: '50%',
+      objectFit: 'cover'
+    }}
+  />
+</div>
+
               <h3 style={{
                 fontSize: '2rem',
                 background: 'linear-gradient(45deg, #00f5ff, #ff0080)',
@@ -58,7 +55,7 @@ const About = () => {
                 Vishal Sharma
               </h3>
               <p style={{ color: '#a0a0ab', fontSize: '1.1rem' }}>
-                Computer Science Engineering Student
+               Software Developer
               </p>
             </div>
           </div>
