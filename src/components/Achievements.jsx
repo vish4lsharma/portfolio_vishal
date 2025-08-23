@@ -22,13 +22,22 @@ const Achievements = () => {
     }
   ]
 
-  const certifications = [
-    'Core Java under Industry Academia Interaction Program by Softpro India',
-    'Livewire Certificate Artificial Intelligence and Machine Learning',
-    'Certificate of Participation in Level 1: E-Commerce',
-    'AWS APAC - Solutions Architecture Job Simulation',
-    'Accenture North America - Data Analytics and Visualization Job Simulation'
-  ]
+ const certifications = [
+  'Introduction to Generative AI by Google',
+  'Introduction to Prompt Engineering with GitHub Copilot by Microsoft',
+  'Introduction to Machine Learning by Microsoft Learn',
+  'Write your first C# code by Microsoft Learn',
+  'Introduction to DevOps by Microsoft Learn',
+  'AWS APAC Solutions Architecture Job Simulation by Forage',
+  'Accenture North America Data Analytics and Visualization Job Simulation by Forage',
+  'Machine Learning and AI Fundamentals by Edunet Foundation',
+  'Java Programming Certification by CADD Center',
+  'AI and ML by CADD Center',
+  'Core Java under Industry Academia Interaction Program by Softpro India',
+  'Livewire Certificate Artificial Intelligence and Machine Learning',
+  'Certificate of Participation in Level 1: E-Commerce'
+]
+
 
   const competencies = [
     'Data Structures',

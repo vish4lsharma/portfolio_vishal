@@ -16,7 +16,7 @@ const Experience = () => {
       gradient: 'linear-gradient(45deg, #00f5ff, #8b5cf6)'
     },
     {
-      duration: '2 Months',
+      duration: '3 Months',
       title: 'Software Development Intern',
       company: 'Traizine Software Pvt Ltd, Noida | Paid On-site',
       description: [

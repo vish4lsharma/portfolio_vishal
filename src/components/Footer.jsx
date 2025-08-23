@@ -12,7 +12,7 @@ const Footer = () => {
 
   const socialLinks = [
     { icon: '💻', href: 'https://github.com/vish4lsharma', label: 'GitHub' },
-    { icon: '💼', href: 'https://linkedin.com/in/vishalsharma', label: 'LinkedIn' },
+    { icon: '🔗', href: 'https://www.linkedin.com/in/vishal-sharma-688080247/', label: 'LinkedIn' },
     { icon: '📧', href: 'mailto:vishalsharma08555252@gmail.com', label: 'Email' }
   ]
 
@@ -42,7 +42,7 @@ const Footer = () => {
               lineHeight: '1.6',
               marginBottom: '1rem'
             }}>
-              Computer Science Engineer | Full Stack Developer | AI Enthusiast
+              Software Engineer | Full Stack Developer | AI Enthusiast
             </p>
             <p style={{
               color: '#6b7280',
