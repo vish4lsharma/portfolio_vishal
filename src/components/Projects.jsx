@@ -5,16 +5,7 @@ const Projects = () => {
   
   const projects = [
     {
-      title: 'Smart Classroom Automation & Timetable',
-      description: 'A smart classroom automation system with automatic timetable generation for efficient class and resource management.',
-      technologies: ['MERN', 'Automation', 'Timetable'],
-      github: 'https://github.com/vish4lsharma/Smartclassroomautomation',
-      demo: '',
-      icon: '🏫',
-      gradient: 'linear-gradient(45deg, #00f5ff, #8b5cf6)'
-    },
-    {
-      title: 'Smart Classroom System',
+      title: 'College Automation ERP',
       description: 'A smart classroom system that digitizes classroom operations, scheduling, and student management.',
       technologies: ['MERN', 'Automation'],
       github: 'https://github.com/vish4lsharma/smart_classroom_system',
