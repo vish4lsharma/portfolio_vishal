@@ -5,68 +5,85 @@ const Projects = () => {
   
   const projects = [
     {
-      title: 'Disaster Management App',
-      description: 'A mobile application to help manage and coordinate disaster response efforts using AI.',
-      technologies: ['Flutter', 'Dart', 'AI', 'CNN'],
-      github: 'https://github.com/student-yashguptya/Disaster-Management.git',
+      title: 'Smart Classroom Automation & Timetable',
+      description: 'A smart classroom automation system with automatic timetable generation for efficient class and resource management.',
+      technologies: ['MERN', 'Automation', 'Timetable'],
+      github: 'https://github.com/vish4lsharma/Smartclassroomautomation',
       demo: '',
-      icon: '🌪️',
+      icon: '🏫',
       gradient: 'linear-gradient(45deg, #00f5ff, #8b5cf6)'
     },
     {
-      title: 'Railway Indoor Navigation App',
-      description: 'An AR-based application to provide indoor navigation within railway stations.',
-      technologies: ['AR', 'Flutter', 'Dart'],
-      github: 'https://github.com/vish4lsharma/Indoor-Navigation-Using-Augmented-Reality-AR-master.git',
+      title: 'Smart Classroom System',
+      description: 'A smart classroom system that digitizes classroom operations, scheduling, and student management.',
+      technologies: ['MERN', 'Automation'],
+      github: 'https://github.com/vish4lsharma/smart_classroom_system',
       demo: '',
-      icon: '🚂',
+      icon: '📚',
       gradient: 'linear-gradient(45deg, #8b5cf6, #ff0080)'
     },
     {
-      title: 'AI-Powered Resume Screening',
-      description: 'A system that uses AI to screen and rank resumes for job applications.',
-      technologies: ['AI', 'ML', 'NLP'],
-      github: 'https://github.com/vish4lsharma/AI-powered-Resume-Screening-and-Ranking-System-vishal-sharma.git',
-      demo: '',
-      icon: '🤖',
+      title: 'Event Management System',
+      description: 'A full-featured event management system for handling event creation, registration, and management workflows.',
+      technologies: ['MERN', 'Events', 'Dashboard'],
+      github: 'https://github.com/vish4lsharma/event-management-system-',
+      demo: 'https://eventxemwallah.vercel.app/',
+      icon: '🎉',
       gradient: 'linear-gradient(45deg, #ff0080, #00f5ff)'
     },
     {
-      title: 'Computer Vision Accessibility Tool',
-      description: 'A tool that enables cursor movement using head gestures and eye blinks, improving accessibility for disabled users.',
-      technologies: ['Computer Vision', 'AI'],
-      github: 'https://github.com/vish4lsharma/cursor-movement-through-head-and-click-through-eye-blink.git',
-      demo: '',
-      icon: '👁️',
-      gradient: 'linear-gradient(45deg, #00f5ff, #ff0080)'
+      title: 'Company Employee Management System',
+      description: 'An AI-powered application that manages employee data, attendance, and performance reviews efficiently.',
+      technologies: ['AI', 'NLP', 'Python', 'HTML', 'CSS', 'JavaScript'],
+      github: 'https://github.com/vish4lsharma/text-to-code-generator.git',
+      demo: 'https://company-project-management-1.onrender.com/',
+      icon: '👷‍♂️',
+      gradient: 'linear-gradient(45deg, #00ffffff, #8b5cf6)'
     },
     {
-      title: 'Personal Portfolio Website',
-      description: 'A responsive personal portfolio website built with HTML and CSS to showcase my projects and skills.',
-      technologies: ['HTML', 'CSS', 'Responsive'],
-      github: 'https://github.com/vish4lsharma.github.io',
-    //   github: 'https://portfolio-vishal-ochre.vercel.app/',
-      demo: 'vish4lsharma.github.io',
-      icon: '💼',
+      title: 'ProctorOne - Smart Proctoring',
+      description: 'An AI-based proctoring solution for secure and automated online examinations.',
+      technologies: ['AI', 'Proctoring', 'Python'],
+      github: 'https://github.com/vish4lsharma/ProctorOne',
+      demo: '',
+      icon: '🧪',
       gradient: 'linear-gradient(45deg, #8b5cf6, #00f5ff)'
     },
     {
-      title: 'Text-to-Code Generator',
-      description: 'An AI-powered application that converts natural language descriptions into executable code across multiple programming languages.',
-      technologies: ['AI', 'NLP', 'Python', 'React'],
-      github: 'https://github.com/vish4lsharma/text-to-code-generator.git',
+      title: 'CertifyPro - Digital Certificates',
+      description: 'A digital certificate generation and verification platform for events and courses.',
+      technologies: ['MERN', 'Certificates', 'Automation'],
+      github: 'https://github.com/vish4lsharma/certifypro',
       demo: '',
-      icon: '⚡',
+      icon: '📜',
       gradient: 'linear-gradient(45deg, #ff0080, #8b5cf6)'
     },
-     {
-      title: 'Company Employee Management System',
-      description: 'An AI-powered application that manages employee data, attendance, and performance reviews efficiently.',
-      technologies: ['AI', 'NLP', 'Python', 'html',' css ','javascript'],
-      github: 'https://github.com/vish4lsharma/text-to-code-generator.git',
+    {
+      title: 'Placement ERP',
+      description: 'A placement ERP solution for colleges connecting students and companies on a single platform.',
+      technologies: ['MERN', 'ERP', 'Placement'],
+      github: 'https://github.com/vish4lsharma/placement_hub',
       demo: '',
-      icon: '👷‍♂️',
-      gradient: 'linear-gradient(45deg, #00ffffff, #8b5cf6)'
+      icon: '🏢',
+      gradient: 'linear-gradient(45deg, #00f5ff, #ff0080)'
+    },
+    {
+      title: 'AI Resume Screener & Job Matcher',
+      description: 'An AI-powered resume screening and job matching system for automating hiring workflows.',
+      technologies: ['AI', 'ML', 'NLP', 'Python'],
+      github: 'https://github.com/vish4lsharma/AI-Resume-Screener-Job-Matcher',
+      demo: '',
+      icon: '🤖',
+      gradient: 'linear-gradient(45deg, #8b5cf6, #ff0080)'
+    },
+    {
+      title: 'Automation Tool',
+      description: 'An automation tool that helps streamline processes in medical and commercial industries.',
+      technologies: ['Automation', 'Python', 'Backend'],
+      github: 'https://github.com/vish4lsharma/automation-tool',
+      demo: '',
+      icon: '⚙️',
+      gradient: 'linear-gradient(45deg, #00f5ff, #8b5cf6)'
     }
   ]
 
@@ -227,7 +244,6 @@ const Projects = () => {
 
   const handleGithubClick = (project) => {
     if (!project.github || project.github === '' || project.github === '#') {
-      // Simple browser alert for GitHub
       alert('🔗 GitHub repository will be available soon!\n\n📞 Contact me for source code access.')
     } else {
       window.open(project.github, '_blank')
@@ -258,7 +274,6 @@ const Projects = () => {
               onMouseEnter={() => setHoveredProject(index)}
               onMouseLeave={() => setHoveredProject(null)}
             >
-              {/* Project Icon */}
               <div style={{
                 width: '80px',
                 height: '80px',
@@ -362,7 +377,6 @@ const Projects = () => {
           ))}
         </div>
 
-        {/* Call to Action */}
         <div style={{
           textAlign: 'center',
           marginTop: '4rem'
